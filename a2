@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#PBS -q single
+#PBS -A hpc_ann02
+#PBS -l walltime=72:00:00
+#PBS -l nodes=1:ppn=1
+#PBS -N dis1
+#PBS -o out
+#PBS -e joberr
+#PBS -j oe
+#PBS -m abe
+#PBS -M jliu73@lsu.edu
+
+export work_dir=/scratch/ferry/8years/2008/1/dis1/
+  cd $work_dir
+export NETCDF=/usr/local/packages/netcdf/4.1.3/Intel-13.0.0
+export PATH=/usr/local/packages/netcdf/4.1.3/Intel-13.0.0/bin:$PATH
+
+export NETCDF_LIBDIR=/usr/local/packages/netcdf/4.1.3/Intel-13.0.0/lib
+export LD_LIBRARY_PATH=/usr/local/packages/netcdf/4.1.3/Intel-13.0.0/lib:/usr/local/packages/hdf5/1.8.9/Intel-13.0.0/lib/:${LD_LIBRARY_PATH}
+export NETCDF_INCDIR=/usr/local/packages/netcdf/4.1.3/Intel-13.0.0/include
+export HDF5_INCDIR=/usr/local/packages/hdf5/1.8.9/Intel-13.0.0/include
+export HDF5_LIBDIR=/usr/local/packages/hdf5/1.8.9/Intel-13.0.0/lib
+#module load netcdf
+make
+  ./LTRANS.exe > jobout
+
+
