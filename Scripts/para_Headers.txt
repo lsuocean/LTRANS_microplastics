@@ -1,0 +1,4 @@
+ column 01: depth   -Depth of particle at end of time step (meters)
+ column 02: color   -integer value to indicate the status of the particle
+ column 03: lon     -Longitude of particle at end of time step (decimal °)
+ column 04: lat     -Latitude  of particle at end of time step (decimal °)
