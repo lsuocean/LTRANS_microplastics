@@ -86,9 +86,6 @@ The output files will be saved in `'./output/0.0005/'`.
 
 For reference, please cite:
 
-J.-H. Liang, J. Liu, M. C. Benfield, D. Justic, D Holstein, B. Liu, R. Hetland, D. Kobashi, C. Dong, and W. Dong, 2021. Including the Effects of Subsurface Currents on Buoyant Particles in Lagrangian Particle Tracking Models: Model Development and its Application to the Study of Riverborne Plastics over the Louisiana/Texas Shelf. Ocean Modelling. Accepted.
-
-- The original LTRANS code was downloaded from this link: https://northweb.hpl.umces.edu/LTRANS.htm.
-- The hindcast solutions for circulations in the Louisiana/Texas continental shelf were downloaded from  http://barataria.tamu.edu:8080/thredds/catalog.html.
+J.-H. Liang, J. Liu, M. C. Benfield, D. Justic, D Holstein, B. Liu, R. Hetland, D. Kobashi, C. Dong, and W. Dong, 2021. Including the Effects of Subsurface Currents on Buoyant Particles in Lagrangian Particle Tracking Models: Model Development and its Application to the Study of Riverborne Plastics over the Louisiana/Texas Shelf. Ocean Modelling. doi:10.1016/j.ocemod.2021.101879.
 
 If you have any questions regarding the model, please feel free to open an issue or send an email to Dr. Jun-Hong Liang (jliang@lsu.edu) at Louisiana State University.
