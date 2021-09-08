@@ -1,5 +1,5 @@
 # LTRANS_microplastics
-This is the repository for the modified Larval TRNASport Lagrangian ([LTRANS](https://northweb.hpl.umces.edu/LTRANS.htm)) model. The original LTRANS model described in [North et al. 2008](https://www.int-res.com/articles/meps2008/359/m359p099.pdf). The modified code contains the implementation of the parameterization including the effects of subsurface currents on buoyant particles ([Liang et al., 2018](https://journals.ametsoc.org/view/journals/phoc/48/9/jpo-d-18-0020.1.xml)). The example is an application of the model on riverborne plastics over the Louisiana/Texas continental shelf (Liang et al., 2021, accepted).
+This is the repository for the modified Larval TRNASport Lagrangian ([LTRANS](https://northweb.hpl.umces.edu/LTRANS.htm)) model ([Liang et al., 2021] (https://doi.org/10.1016/j.ocemod.2021.101879)). The original LTRANS model described in [North et al. 2008](https://www.int-res.com/articles/meps2008/359/m359p099.pdf). The modified code contains the implementation of the parameterization including the effects of subsurface currents on buoyant particles ([Liang et al., 2018](https://journals.ametsoc.org/view/journals/phoc/48/9/jpo-d-18-0020.1.xml)). The example is an application of the model on riverborne plastics over the Louisiana/Texas continental shelf.
 
 ---
 ## Quick Start
